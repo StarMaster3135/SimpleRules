@@ -1,0 +1,25 @@
+name: SimpleRulesPlugin
+version: 1.0.0
+main: com.starmaster.simplerulesplugin.SimpleRulesPlugin
+api-version: 1.21
+author: Starmaster
+description: A simple plugin to display server rules with additional features
+website:
+
+commands:
+  rules:
+    description: Display the server rules and manage plugin
+    usage: |
+      /rules - Display server rules
+      /rules help - Show help
+      /rules reload - Reload configuration (admin only)
+    permission: rules.view
+    permission-message: You don't have permission to use this command!
+
+permissions:
+  rules.view:
+    description: Allows players to view server rules
+    default: true
+  rules.admin:
+    description: Allows admins to manage rules and reload config
+    default: op

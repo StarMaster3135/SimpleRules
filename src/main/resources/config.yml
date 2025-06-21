@@ -1,0 +1,26 @@
+# SimpleRulesPlugin Configuration
+# 
+# Add your server rules below. Each rule will be numbered automatically.
+# After editing, use /rules reload to apply changes without restarting.
+
+rules:
+  - "Be respectful to all players and staff members"
+  - "No griefing, stealing, or destroying other players' builds"
+  - "No cheating, hacking, or using exploits"
+  - "Keep chat appropriate and family-friendly"
+  - "No spamming in chat or with commands"
+  - "Follow staff instructions and respect their decisions"
+  - "No advertising other servers or websites"
+  - "Use common sense and have fun!"
+
+# Plugin Settings
+plugin:
+  version: "1.0.0"
+  
+# You can add more rules by following the same format:
+# - "Your new rule here"
+#
+# Commands available:
+# /rules - Show rules to players
+# /rules help - Show help message  
+# /rules reload - Reload config (admin only)
